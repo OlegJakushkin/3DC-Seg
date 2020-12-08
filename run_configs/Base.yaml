@@ -39,9 +39,9 @@ INPUT:
   TW: 8
 DATASETS:
   TRAIN: "Davis"
-  TRAIN_ROOT: "/globalwork/data/DAVIS-Unsupervised/DAVIS/"
+  TRAIN_ROOT: "./DAVIS/"
   TEST: "Davis"
-  TEST_ROOT: "/globalwork/data/DAVIS-Unsupervised/DAVIS/"
+  TEST_ROOT: "./DAVIS/"
   MAX_TEMPORAL_GAP: 8
 DATALOADER:
   NUM_SAMPLES: -1
